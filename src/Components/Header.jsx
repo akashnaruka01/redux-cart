@@ -9,14 +9,14 @@ const Header = () => {
   return (
     <nav>
       <Box>
-        <GiShoppingCart size={50} />
+        <GiShoppingCart size={35} />
         <Text color={"white"} fontSize={"1.4rem"}>
           Dmart
         </Text>
       </Box>
 
       <div>
-        <Link to={"/"}>Home</Link>
+        <Link to={"/"} color="white">Home</Link>
         <Link to={"/cart"}>
           <GiShoppingBag size={40} color="white" />
           <p>{cartItems.length}</p>

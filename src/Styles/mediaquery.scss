@@ -12,3 +12,55 @@
         }
       }
 }
+
+@media screen and (max-width: 710px) {
+  nav{
+    padding: 0 ;
+    >div{
+      padding-left: 4px;
+      >svg{
+        width: 25px !important;
+      }
+      >p{
+        padding-left: 2px;
+        font-size: 1rem !important;
+      }
+      >a{
+        font-size: 1rem !important;
+        margin: 0.5rem;
+        color: white;
+        >svg{
+          width: 30px !important;
+        }
+        >p{
+          color: black;
+          transform: translate(50%,-190%);  
+        }
+      }
+    }
+
+
+  }
+  .footerBox{
+    height: 30vh !important;
+  }
+  .footerLine{
+    margin: 0 !important;
+    height: 0 !important;
+  }
+  .footer{
+    flex-direction: column !important;
+    height: 55% !important;
+    margin-bottom: 1.5rem !important;
+  }
+  .heading{
+    display: inline;
+    margin: auto;
+  }
+  .copyright{
+    font-size: 0.95rem !important;
+  }
+
+ 
+}
+
