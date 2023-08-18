@@ -1,3 +1,22 @@
+
+@media screen and (max-width: 1024px) {
+  .footerLine{
+    width: 40% !important;
+  }
+
+  .socialMediaH{
+      // background-color: aqua !important;
+      font-size: 1rem !important;    
+  }
+
+  .socialMedia{
+    gap: 2px !important;
+    svg{
+      width: 30px;
+    }
+  }
+}
+
 @media screen and (max-width: 820px) {
     .cart {
         grid-template-columns: 1fr;
@@ -11,9 +30,27 @@
           }
         }
       }
+      .copyright{
+        font-size: 1rem !important;
+      }
 }
 
 @media screen and (max-width: 710px) {
+  .socialMedia{
+    flex-direction: row !important;
+    gap: 40px !important;
+    width: 100% !important;
+    align-self: center;
+    >div{
+      gap: 8px !important;
+    }
+  }
+  .socialMediaH{
+    font-size: 1.4rem !important;
+  }
+  .copyright{
+    text-align: center;
+  }
   nav{
     padding: 0 ;
     >div{
@@ -59,8 +96,26 @@
   }
   .copyright{
     font-size: 0.95rem !important;
-  }
+  } 
+}
 
- 
+
+@media screen and (max-width: 350px) {
+  .copyright{
+    font-size: 0.8rem !important;
+  }
+  .socialMedia{
+    flex-direction: row !important;
+    gap: 40px !important;
+    width: 100% !important;
+    align-self: center;
+    >div{
+      gap: 4px !important;
+    }
+  }
+  .socialMediaH{
+    font-size: 1.1rem !important;
+  }
+   
 }
 
